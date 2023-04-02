@@ -1,0 +1,81 @@
+:root{
+    color-scheme: normal;
+}
+
+.main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+    gap: 100px;
+    text-align: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+input{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+input:focus{
+    padding: 30px;
+    background: gray;
+    color: white;
+}
+
+button{
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: gray;
+    color: white;
+}
+
+#welcome{
+    font-size: 40px;
+}
+
+#responseMSG{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.gg-eye{
+    cursor: pointer;
+}
+
+.gg-eye-alt{
+    cursor: pointer;
+}

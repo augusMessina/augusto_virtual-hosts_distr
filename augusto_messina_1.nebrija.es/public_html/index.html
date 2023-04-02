@@ -1,0 +1,35 @@
+<html>
+
+  <script src="./script.js"></script>
+
+  <head>
+    <title>Augusto Messina 1!</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/eye.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/eye-alt.css' rel='stylesheet'>
+  </head>
+
+  <body>
+    <div class="main">
+      <p id="welcome">Welcome to Augusto's <span style="color: orange">first</span>
+         Virtual Host!</p>
+      <div class="login">
+        <p>Please authenticate</p>
+        <input id="username" placeholder="Enter your username"></input>
+        <div style="display: flex; flex-direction:row; align-items:center; gap: 15px">
+          <div>
+            <i class="gg-eye" id="eye-icon" onclick="swapVisibility()"></i>
+          </div>
+          <input id="password" placeholder="Enter your password" type="password"></input>
+        </div>
+        <button onclick="validate()">Enter</button>
+      </div>
+      <p id="responseMSG"></p>
+    </div>
+  </body>
+</html>
